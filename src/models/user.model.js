@@ -5,7 +5,7 @@ const bcrypt = require("bcryptjs");
 const userSchema = mongoose.Schema({
     name: { type: String, required: true },
     mobile: { type: String, required: true },
-    email: { type: String, requitred: true, unique: true },
+    email: { type: String, requitred: true },
     password: { type: String, required: true },
     // type: [{ type: String, default: "customer" }]
 }, {
@@ -25,4 +25,6 @@ userSchema.methods.checkPassword = function (password) {
 };
 
 
-module.exports = mongoose.model("user", userSchema);
+const User = mongoose.model("user", userSchema);
+
+module.exports = User;
