@@ -3,9 +3,11 @@ require("dotenv").config();
 const User = require("../models/user.model");
 const jwt = require("jsonwebtoken");
 
-// const newToken = (user) => {
-//     return jwt.sign({ user }, process.env.JWT_SECRET_KEY);
-// };
+const newToken = (user) => {
+    // console.log(process.env);
+    // return jwt.sign({ user }, process.env.FIRSTCRY_KEY);
+    return jwt.sign({ user }, "Vineeth")
+};
 
 // User Registertion 
 const register = async (req, res) => {
@@ -16,7 +18,8 @@ const register = async (req, res) => {
             return res.status(400).send({ message: "Please try another email" });
 
         user = await User.create(req.body);
-        res.send({ user });
+        const token = newToken(user);
+        res.send({ user, token });
     } catch (e) {
         console.log(e);
     }
@@ -24,12 +27,12 @@ const register = async (req, res) => {
 
 const login = async (req, res) => {
     try {
-        const user = User.findOne({ email: req.body.email })
+        const user = await User.findOne({ email: req.body.email })
 
         if (!user)
             return res.status(400).send({ message: "Please try another email" });
 
-        console.log(user.password);
+        // console.log(user.password);
         let match = user.checkPassword(req.body.password);
 
         if (!match)
