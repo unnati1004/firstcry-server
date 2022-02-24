@@ -5,16 +5,16 @@ const app = express();
 
 app.use(express.json());
 
-app.use("/nightwears",product_controller);
+app.use("/nightwears", product_controller);
 
 
 
 app.listen(2345, () => {
     try {
-       connect();
+        connect();
         console.log("listening 2345");
-    }catch(e){
-        console.error({message:e.message});
+    } catch (e) {
+        console.error({ message: e.message });
     }
-    
+
 })
