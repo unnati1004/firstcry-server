@@ -2,53 +2,83 @@
     {
         "price":"337",
         "image":"https://cdn.fcglcdn.com/brainbees/images/products/438x531/3652828a.webp",
+        "image1":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3652828c.webp",
+        "image2":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3652828f.webp",
+        "image3":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3652828b.webp",
         "name":"Kookie Kids Full Sleeves Night Suit Dino Print - Orange"
     },
     {
         "price":"325",
-        "image":"https://cdn.fcglcdn.com/brainbees/images/products/438x531/3691325b.jpg",
+        "image":"https://cdn.fcglcdn.com/brainbees/images/products/438x531/3691325g.webp",
+        "image1":"https://cdn.fcglcdn.com/brainbees/images/products/438x531/3691325b.jpg",
+        "image2":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3691325e.webp",
+        "image3":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3691325c.webp",
         "name":"Kookie Kids Full Sleeves Night Suit Fire Engine Print - Yellow"
     },
     {
         "price":"487",
         "image":"https://cdn.fcglcdn.com/brainbees/images/products/438x531/3648198a.webp",
+        "image1":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3648198f.webp",
+        "image2":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3648198e.webp",
+        "image3":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3648198d.webp",
         "name":"Kookie Kids Full Sleeves Night Suit Animal Print - Grey"
 
     },
     {
         "price":"703",
         "image":"https://cdn.fcglcdn.com/brainbees/images/products/438x531/3688219a.webp",
+        "image1":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3688219b.webp",
+        "image2":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3688219d.webp",
+        "image3":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3688219e.webp",
         "name":"Babyoye  Full Sleeves Front Open Sleepsuit Bear & Penguin Print Pack of 2 - Navy Blue"
 
     },
     {
         "price":"343",
         "image":"https://cdn.fcglcdn.com/brainbees/images/products/438x531/3648532a.webp",
+        "image1":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3648532b.webp",
+        "image2":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3648532d.webp",
+        "image3":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3648532e.webp",
         "name":"Kookie Kids Full Sleeves Night Suit Vehicle Print - Blue"
     },
     {
         "price":"433",
         "image":"https://cdn.fcglcdn.com/brainbees/images/products/438x531/3648191a.webp",
+        "image1":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3648191d.webp",
+        "image2":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3648191f.webp",
+        "image3":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3648191c.webp",
         "name":"Kookie Kids Full Sleeves Night Suit Elephant Print - Light Peach"
     },
     {
         "price":"478",
         "image":"https://cdn.fcglcdn.com/brainbees/images/products/438x531/3648177a.webp",
+        "image1":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3648177d.webp",
+        "image2":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3648177f.webp",
+        "image3":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/3648177b.webp",
         "name":"Kookie Kids Full Sleeves Night Suit Dino Print - Brown"
     },
     {
         "price":"284",
         "image":"https://cdn.fcglcdn.com/brainbees/images/products/438x531/3794634a.webp",
+        "image1":"",
+        "image2":"",
+        "image3":"",
         "name":"Babyhug Full Sleeves Footed Printed Sleepsuit Giraffe Patch - Blue"
     },
     {
         "price":"329",
         "image":"https://cdn.fcglcdn.com/brainbees/images/products/438x531/8085123a.webp",
+        "image1":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/8085123d.webp",
+        "image2":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/8085123c.webp",
+        "image3":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/8085123b.webp",
         "name":"Babyoye Full Sleeves Cotton Footed Sleepsuit - Yellow"
     },
     {
         "price":"803",
-        "image":"https://cdn.fcglcdn.com/brainbees/images/products/438x531/8108786d.jpg",
+        "image":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/8108786a.webp",
+        "image1":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/8108786b.webp",
+        "image2":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/8108786d.webp",
+        "image3":"https://cdn.fcglcdn.com/brainbees/images/products/56x69/8108786f.webp",
         "name":"Babyoye Cotton Blend Full Sleeves Night Suits Pack of 2 - Blue Grey"
     }
 ]
