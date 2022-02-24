@@ -3,8 +3,7 @@ const connect = require("./config/db");
 
 const app = express();
 
-
-
+app.use()
 
 
 
