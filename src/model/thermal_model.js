@@ -9,4 +9,4 @@ const thermal_schema = mongoose.Schema({
     image3:{ type: String, require: true },
 })
 
-module.exports = mongoose.model("Thermal", thermal_schema);
+module.exports = mongoose.model("thermal", thermal_schema);
