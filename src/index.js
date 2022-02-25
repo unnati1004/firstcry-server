@@ -2,12 +2,17 @@ const express = require("express");
 const connect = require("./config/db");
 const product_controller = require("./controller/nightwear_controller");
 const Tshirt_controller = require("./controller/Tshirt_controller");
+const thermal_controller = require("./controller/thermal_controller");
+
 const app = express();
 
 app.use(express.json());
 
 app.use("/nightwears", product_controller);
 app.use("/tshirt",Tshirt_controller);
+app.use("/thermal",thermal_controller);
+
+
 app.listen(2345, () => {
     try {
         connect();
