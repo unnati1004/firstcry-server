@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const connect = require("./config/db");
-const { register, login } = require("./controller/auth.controller")
+const { router, login } = require("./controller/auth.controller")
 const product_controller = require("./controller/nightwear_controller");
 const Tshirt_controller = require("./controller/Tshirt_controller");
 const thermal_controller = require("./controller/thermal_controller");
@@ -21,7 +21,7 @@ app.use("/tshirt", Tshirt_controller);
 app.use("/thermal", thermal_controller);
 
 
-app.post("/register", register);
+app.use("/register", router);
 app.post("/login", login);
 
 app.use("/nightwears", product_controller);
