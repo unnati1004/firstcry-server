@@ -6,18 +6,22 @@ const Tshirt_controller = require("./controller/Tshirt_controller");
 
 const app = express();
 
+require("dotenv").config()
+
 app.use(express.json());
 
 app.post("/register", register);
-app.post("/login",login);
+app.post("/login", login);
 
 app.use("/nightwears", product_controller);
-app.use("/tshirt",Tshirt_controller);
+app.use("/tshirt", Tshirt_controller);
 
-app.listen(2345, () => {
+port = process.env.PORT || 3000;
+
+app.listen(port, () => {
     try {
         connect();
-        console.log("listening 2345");
+        console.log(`listining to ${port}`);
     } catch (e) {
         console.error({ message: e.message });
     }
