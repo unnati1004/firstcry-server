@@ -29,15 +29,11 @@ https://friendly-goldwasser-04fd7a.netlify.app/index.html
 - #### [Vineeth](https://www.linkedin.com/in/vineethevk/)
 - #### [Sumit](https://www.linkedin.com/in/sumit-narwal-77a828138/)
 - #### [Tarun](https://www.linkedin.com/in/tarun-rakhunde-a65aa5228/)
-- #### [Praveen](https://www.linkedin.com/in/praveen-kumar-036005184/)
+
 
 
 ## Tech Stack :- 
 
-- #### HTML
-- #### CSS 
-- #### JavaScript
-- #### GIT
 - #### Express
 - #### Models
 - #### Views
@@ -74,5 +70,5 @@ https://friendly-goldwasser-04fd7a.netlify.app/index.html
 ## Screenshots :- 
 ## For more details :- ![frontpage](https://user-images.githubusercontent.com/96103401/158337719-d246069e-bd07-4be7-84e6-b675f776de92.png)
 
-[Blog]( https://medium.com/@ossalunkhe09/cloning-firstcry-website-cf13071992cf)
+[Blog](https://medium.com/@ossalunkhe09/cloning-firstcry-website-cf13071992cf)
 
